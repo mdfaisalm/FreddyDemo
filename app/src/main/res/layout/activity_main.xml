@@ -15,7 +15,7 @@
             android:background="#00ff00"
             android:text="MY First TextView alkd skdl sdkls kdlskdsl skdl skdls ksdlk"
             android:textAllCaps="true"
-            android:textColor="#ffff0000"
+            android:textColor="#ffff0000" kjkj
             android:textSize="16dp" ljkjl
             android:textStyle="bold|italic" />
     </HorizontalScrollView>
