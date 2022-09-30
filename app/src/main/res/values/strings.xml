@@ -1,4 +1,14 @@
 <resources>
     <string name="app_name">FreddyDemo</string>
     <string name="checkBoxText">Course 1</string>
+
+    <string-array name="citiesNames">
+        <item>Makkah</item>
+        <item>New York</item>
+        <item>London</item>
+        <item>Lahore</item>
+        <item>Faisalabad</item>
+        <item>Dubai</item>
+        <item>Sharjah</item>
+    </string-array>
 </resources>

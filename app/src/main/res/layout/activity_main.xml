@@ -1,83 +1,104 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:layout_height="match_parent">
 
-    <HorizontalScrollView
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
 
         <TextView
             android:id="@+id/tvFirstTextView"
-            android:layout_width="1000dp"
+            android:layout_width="100dp"
             android:layout_height="100dp"
+            android:layout_marginTop="40dp"
             android:background="#00ff00"
+            android:gravity="center_vertical|right"
+            android:layout_gravity="right"
+            android:padding="20dp"
             android:text="MY First TextView alkd skdl sdkls kdlskdsl skdl skdls ksdlk"
             android:textAllCaps="true"
             android:textColor="#ffff0000"
             android:textSize="16dp"
             android:textStyle="bold|italic" />
-    </HorizontalScrollView>
 
-    <Button
-        android:id="@+id/btnFirstButton"
-        android:layout_width="match_parent"
-        android:layout_height="40dp"
-        android:text="This is Our First Button"
-        android:textAllCaps="false"
-        android:textColor="#f0f"
-        android:textStyle="bold" />
+        <Button
+            android:id="@+id/btnFirstButton"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="30dp"
+            android:text="This is Our First Button"
+            android:textAllCaps="false"
+            android:textColor="#f0f"
+            android:textStyle="bold" />
 
-    <EditText
-        android:id="@+id/etName"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Please enter your name" />
-
-    <RadioGroup
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:checkedButton="@id/rbSecond"
-        android:orientation="horizontal">
-
-        <RadioButton
-            android:id="@+id/rbFirst"
-            android:layout_width="wrap_content"
+        <EditText
+            android:id="@+id/etName"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Male" />
+            android:layout_margin="40dp"
+            android:hint="Please enter your name" />
 
-        <RadioButton
-            android:id="@+id/rbSecond"
-            android:layout_width="wrap_content"
+        <Spinner
+            android:id="@+id/spCities"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Female" />
-    </RadioGroup>
+            android:entries="@array/citiesNames" />
 
-    <CheckBox
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:checked="true"
-        android:text="@string/checkBoxText"
-        android:textSize="20dp" />
+        <TextView
+            android:id="@+id/tvSelectedCity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/purple_200" />
 
-    <CheckBox
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Course 2"
-        android:textSize="20dp" />
+        <RadioGroup
+            android:id="@+id/rgEnableButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checkedButton="@id/rbFirst"
+            android:orientation="horizontal">
 
-    <CheckBox
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:checked="true"
-        android:text="Course 3"
-        android:textSize="20dp" />
+            <RadioButton
+                android:id="@+id/rbFirst"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Enabled" />
 
-    <ImageView
-        android:layout_width="300dp"
-        android:layout_height="300dp"
-        android:src="@drawable/icon" />
-</LinearLayout>
+            <RadioButton
+                android:id="@+id/rbSecond"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Disabled" />
+        </RadioGroup>
+
+        <CheckBox
+            android:id="@+id/cbCourse1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/checkBoxText"
+            android:textSize="20dp" />
+
+        <CheckBox
+            android:id="@+id/cbCourse2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Course 2"
+            android:textSize="20dp" />
+
+        <CheckBox
+            android:id="@+id/cbCourse3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Course 3"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:padding="60dp"
+            android:src="@drawable/icon" />
+    </LinearLayout>
+</ScrollView>
