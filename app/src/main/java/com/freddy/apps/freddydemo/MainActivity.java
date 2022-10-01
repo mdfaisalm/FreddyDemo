@@ -1,6 +1,7 @@
 package com.freddy.apps.freddydemo;
 
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
@@ -17,7 +18,7 @@ import androidx.appcompat.app.AppCompatActivity;
 public class MainActivity extends AppCompatActivity {
 
     TextView tvFirstTextView, tvSelectedCity;
-    Button btnFirstButton;
+    Button btnFirstButton, btnMoveToRelativeLayoutActivity;
     EditText etName;
     RadioGroup rgEnableButton;
     CheckBox cbCourse1, cbCourse2, cbCourse3;
@@ -32,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
         btnFirstButton = findViewById(R.id.btnFirstButton);
         etName = findViewById(R.id.etName);
         rgEnableButton = findViewById(R.id.rgEnableButton);
+        btnMoveToRelativeLayoutActivity = findViewById(R.id.btnMoveToRelativeLayoutActivity);
         cbCourse1 = findViewById(R.id.cbCourse1);
         cbCourse2 = findViewById(R.id.cbCourse2);
         cbCourse3 = findViewById(R.id.cbCourse3);
@@ -47,6 +49,10 @@ public class MainActivity extends AppCompatActivity {
             etName.setText("");
         });
 */
+        btnMoveToRelativeLayoutActivity.setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this, RelativeLayoutExample.class);
+            startActivity(intent);
+        });
         btnFirstButton.setOnClickListener(v -> {
             String result = "";
             if (cbCourse1.isChecked()) {

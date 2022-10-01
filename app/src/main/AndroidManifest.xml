@@ -10,9 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FreddyDemo">
         <activity
+            android:name=".RelativeLayoutExample"
+            android:label="Relative Layout Example"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
-            android:label="First Screen"
-            android:exported="true">
+            android:exported="true"
+            android:label="First Screen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
