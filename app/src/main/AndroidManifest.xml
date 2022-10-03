@@ -10,9 +10,17 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FreddyDemo">
         <activity
-            android:name=".RelativeLayoutExample"
-            android:label="Relative Layout Example"
+            android:name=".IntentDataSenderActivity"
+            android:label="Data Sender"
             android:exported="false" />
+        <activity
+            android:name=".IntentDataReceiverExample"
+            android:label="Data Receiver"
+            android:exported="false" />
+        <activity
+            android:name=".RelativeLayoutExample"
+            android:exported="false"
+            android:label="Relative Layout Example" />
         <activity
             android:name=".MainActivity"
             android:exported="true"

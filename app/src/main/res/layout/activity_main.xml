@@ -41,6 +41,16 @@
             android:textAllCaps="false"
             android:textColor="#f0f"
             android:textStyle="bold" />
+        <Button
+            android:id="@+id/btnMoveToDataSenderActivity"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:onClick="moveToDataSenderActivity"
+            android:layout_marginTop="30dp"
+            android:text="Move To Data Sender Activity"
+            android:textAllCaps="false"
+            android:textColor="#f0f"
+            android:textStyle="bold" />
 
         <EditText
             android:id="@+id/etName"

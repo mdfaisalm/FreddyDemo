@@ -96,4 +96,9 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
+
+    public void moveToDataSenderActivity(View view) {
+        Intent intent = new Intent(this, IntentDataSenderActivity.class);
+        startActivity(intent);
+    }
 }

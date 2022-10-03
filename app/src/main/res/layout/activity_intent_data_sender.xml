@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".IntentDataSenderActivity">
+
+    <EditText
+        android:id="@+id/etStringDataSender"
+        android:hint="enter string"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etIntegerDataSender"
+        android:layout_width="match_parent"
+        android:hint="enter integer"
+        android:inputType="number"
+        android:layout_height="wrap_content" />
+
+    <CheckBox
+        android:id="@+id/cbBooleanSender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Boolean data sender" />
+
+    <Button
+        android:onClick="sendDataToNextScreen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send Data to Next Screen" />
+</LinearLayout>
