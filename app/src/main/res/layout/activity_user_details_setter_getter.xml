@@ -4,35 +4,46 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".IntentDataSenderActivity">
+    tools:context=".UserDetailsSetterGetterActivity">
 
     <EditText
-        android:id="@+id/etStringDataSender"
+        android:id="@+id/etUserName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="enter string" />
+        android:hint="enter user name" />
 
     <EditText
-        android:id="@+id/etIntegerDataSender"
+        android:id="@+id/etUserAge"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="enter integer"
+        android:hint="enter age"
         android:inputType="number" />
-
-    <CheckBox
-        android:id="@+id/cbBooleanSender"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Boolean data sender" />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onClick="sendDataToNextScreen"
-        android:text="Send Data to Next Screen" />
+        android:onClick="setDataToUserDetailClass"
+        android:text="Set User Details" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="getDataFromUserDetailClass"
+        android:text="Get User Details" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="goToMenuActivity"
+        android:text="Go To Menu Activity" />
 
     <TextView
-        android:id="@+id/tvBackResult"
+        android:id="@+id/tvUserName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvUserAge"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 </LinearLayout>

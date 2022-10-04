@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
     android:layout_height="match_parent">
 
     <LinearLayout
@@ -48,6 +50,27 @@
             android:onClick="moveToDataSenderActivity"
             android:layout_marginTop="30dp"
             android:text="Move To Data Sender Activity"
+            android:textAllCaps="false"
+            android:textColor="#f0f"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnMoveToUserDetailsSetterGetterActivity"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:onClick="moveToUserDetailsSetterGetterActivity"
+            android:layout_marginTop="30dp"
+            android:text="Move To User Details SetterGetter Activity"
+            android:textAllCaps="false"
+            android:textColor="#f0f"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/btnMoveToMenuActivity"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:onClick="moveToMenuActivity"
+            android:layout_marginTop="30dp"
+            android:text="Move To Menu Activity"
             android:textAllCaps="false"
             android:textColor="#f0f"
             android:textStyle="bold" />

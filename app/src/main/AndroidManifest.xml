@@ -10,13 +10,19 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FreddyDemo">
         <activity
-            android:name=".IntentDataSenderActivity"
-            android:label="Data Sender"
+            android:name=".MenuActivity"
             android:exported="false" />
         <activity
-            android:name=".IntentDataReceiverExample"
-            android:label="Data Receiver"
+            android:name=".UserDetailsSetterGetterActivity"
             android:exported="false" />
+        <activity
+            android:name=".IntentDataSenderActivity"
+            android:exported="false"
+            android:label="Data Sender" />
+        <activity
+            android:name=".IntentDataReceiverExample"
+            android:exported="false"
+            android:label="Data Receiver" />
         <activity
             android:name=".RelativeLayoutExample"
             android:exported="false"

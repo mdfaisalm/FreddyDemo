@@ -101,4 +101,14 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, IntentDataSenderActivity.class);
         startActivity(intent);
     }
+
+    public void moveToUserDetailsSetterGetterActivity(View view) {
+        Intent intent = new Intent(this, UserDetailsSetterGetterActivity.class);
+        startActivity(intent);
+    }
+
+    public void moveToMenuActivity(View view) {
+        Intent intent = new Intent(this, MenuActivity.class);
+        startActivity(intent);
+    }
 }

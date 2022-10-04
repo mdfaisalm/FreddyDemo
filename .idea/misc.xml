@@ -4,9 +4,13 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/AndroidWorkspace/Fiverr/Freddy/Code/FreddyDemo/app/src/main/res/layout/activity_intent_data_example.xml" value="0.20416666666666666" />
+        <entry key="..\:/AndroidWorkspace/Fiverr/Freddy/Code/FreddyDemo/app/src/main/res/layout/activity_intent_data_receiver.xml" value="0.20416666666666666" />
         <entry key="..\:/AndroidWorkspace/Fiverr/Freddy/Code/FreddyDemo/app/src/main/res/layout/activity_intent_data_sender.xml" value="0.19010416666666666" />
         <entry key="..\:/AndroidWorkspace/Fiverr/Freddy/Code/FreddyDemo/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/AndroidWorkspace/Fiverr/Freddy/Code/FreddyDemo/app/src/main/res/layout/activity_menu.xml" value="0.20416666666666666" />
         <entry key="..\:/AndroidWorkspace/Fiverr/Freddy/Code/FreddyDemo/app/src/main/res/layout/activity_relative_layout_example.xml" value="0.20416666666666666" />
+        <entry key="..\:/AndroidWorkspace/Fiverr/Freddy/Code/FreddyDemo/app/src/main/res/layout/activity_user_details_setter_getter.xml" value="0.19010416666666666" />
+        <entry key="..\:/AndroidWorkspace/Fiverr/Freddy/Code/FreddyDemo/app/src/main/res/menu/dummy_menu.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/user/Desktop/FreddyDemo/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
         <entry key="..\:/Users/user/Desktop/FreddyDemo/app/src/main/res/layout/activity_main.xml" value="0.25" />
       </map>

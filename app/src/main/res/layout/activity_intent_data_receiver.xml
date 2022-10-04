@@ -34,4 +34,16 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Value of Boolean data" />
+
+    <EditText
+        android:id="@+id/etBackData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter back data here" />
+
+    <Button
+        android:onClick="sendDataBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send Data Back" />
 </LinearLayout>
